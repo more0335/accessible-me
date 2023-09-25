@@ -63,6 +63,10 @@ img {
   font-size: 1.25rem;
 }
 
+.address p {
+  margin: 0;
+}
+
 form input,
 form textarea {
   display: block;
