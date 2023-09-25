@@ -14,7 +14,7 @@ h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
 }
 
-.container {
+#container {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 1rem;
