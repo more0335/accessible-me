@@ -52,6 +52,10 @@ form textarea {
   padding: .5rem 1rem;
 }
 
+label[for=yourmessage] {
+  font-weight: bold;
+}
+
 form textarea {
   min-height: 150px;
   max-height: 150px;
