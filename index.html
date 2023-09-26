@@ -42,28 +42,30 @@
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
       </article>
 
-      <section class="owner">
+      <section class="owner" role="region">
         <h2>Meet the owner</h2>
-        <ul>
-          <li>Name: John Doe</li>
-          <li>Title: CEO</li>
-          <li>Email: johnjoe@jambox.ca</li>
-          <li>Phone: 613-000-0000</li>
+        <ul itemscope itemtype="https://schema.org/Person">
+          <li>Name: <span itemprop="givenName">John</span> <span itemprop="familyName">Doe</span></li>
+          <li>Title: <span itemprop="jobTitle">CEO</span></li>
+          <li>Email: <span itemprop="email">johnjoe@jambox.ca</span></li>
+          <li>Phone: <span itemprop="telephone">613-000-0000</span></li>
         </ul>
       </section>
       
-      <section class="address">
+      <section role="region">
         <h2>Address</h2>
-        <p>Jambox Studios</p>
-        <p>123 Guitar Road,</p>
-        <p>Musicville, Danceistan</p>
-        <p>B3T 0L0</p>
+        <p itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+          Jambox Studios<br>
+          <span itemprop="streetAddress">123 Guitar Road</span>,<br>
+          <span itemprop="addressLocality">Musicville</span>, <span itemprop="addressRegion">Danceistan</span><br>
+          <span itemprop="postalCode">B3T 0L0</span><br>
+        </p>
       </section>
 
-      <section class="contact-section">
+      <section class="contact-section" role="region">
         <h2>Contact Us</h2>
 
-        <form action="thanks.html">
+        <form action="thanks.html" role="form">
           <label for="fullname">Full Name</label>
           <input type="text" name="fullname" id="fullname" placeholder="Full Name">
 
