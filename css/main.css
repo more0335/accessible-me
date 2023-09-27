@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: #B5B5B5;
   margin: 0;
   padding: 0;
 }
@@ -89,6 +89,6 @@ form button {
   text-transform: uppercase;
 }
 
-.site-footer {
+.footer {
   padding: 2rem 0;
 }
